@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Filter Result</title>
+</head>
+<body>
+    <h1>Spam Filter Result</h1>
+    {% if prediction %}
+        <p>This message is classified as spam.</p>
+    {% else %}
+        <p>This message is not spam.</p>
+    {% endif %}
+    <a href="/">Go back to input</a>
+</body>
+</html>
